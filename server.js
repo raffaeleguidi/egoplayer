@@ -4,7 +4,7 @@ module.exports = {
 
     init: function() {
 
-        var server=new Server({ httpPort: 10000 /* configuration, see below */ }, [
+        var server=new Server({ /* configuration, see below */ }, [
            '/Users/rough',
         //    { path: '/home/rough/images' }
         //    ,

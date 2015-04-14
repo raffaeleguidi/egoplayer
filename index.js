@@ -1,9 +1,16 @@
+//in upnpserver/lib
+// create i18n_it.js
+
 var server = require('./server.js');
 
-//server.init();
+server.init();
+
+
+// in client.js
+//if (port) PORT=port;
 
 var upnpClient = require('node-upnp-client');
-var cli = new upnpClient();
+var cli = new upnpClient(1901);
 
 //start search
 
