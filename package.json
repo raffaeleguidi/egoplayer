@@ -1,0 +1,20 @@
+{
+  "name": "megaplayer",
+  "version": "0.5.0",
+  "description": "An egocentric media player",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "media",
+    "torrent",
+    "video"
+  ],
+  "author": "Raffaele P. Guidi <raffaele.p.guidi@gmail.com> (https://github.com/raffaeleguidi)",
+  "license": "ISC",
+    "dependencies": {
+        "upnpserver": "*",
+        "node-upnp-client": "*"
+    }
+}
