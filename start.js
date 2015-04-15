@@ -9,30 +9,30 @@ server.init();
 // in client.js
 //if (port) PORT=port;
 
-var upnpClient = require('node-upnp-client');
-var cli = new upnpClient(1901);
-
-//start search
-
-cli.searchDevices();
-
-// listen for search terminated
-
-cli.on('searchDevicesEnd', function() {
-    console.log('_avTransports'+ JSON.stringify(cli._avTransports))
-    console.log('_renderers'+ JSON.stringify(cli._renderers))
-    console.log('_connectionManagers'+ JSON.stringify(cli._connectionManagers))
-    console.log('_servers'+ JSON.stringify(cli._servers))
-});
-
-// listen for added / removed devices
-
-cli.on('updateUpnpDevice', function() {
-    console.log('_avTransports'+ JSON.stringify(cli._avTransports))
-    console.log('_renderers'+ JSON.stringify(cli._renderers))
-    console.log('_connectionManagers'+ JSON.stringify(cli._connectionManagers))
-    console.log('_servers'+ JSON.stringify(cli._servers))
-});
+//var upnpClient = require('node-upnp-client');
+//var cli = new upnpClient(1901);
+//
+////start search
+//
+//cli.searchDevices();
+//
+//// listen for search terminated
+//
+//cli.on('searchDevicesEnd', function() {
+//    console.log('_avTransports'+ JSON.stringify(cli._avTransports))
+//    console.log('_renderers'+ JSON.stringify(cli._renderers))
+//    console.log('_connectionManagers'+ JSON.stringify(cli._connectionManagers))
+//    console.log('_servers'+ JSON.stringify(cli._servers))
+//});
+//
+//// listen for added / removed devices
+//
+//cli.on('updateUpnpDevice', function() {
+//    console.log('_avTransports'+ JSON.stringify(cli._avTransports))
+//    console.log('_renderers'+ JSON.stringify(cli._renderers))
+//    console.log('_connectionManagers'+ JSON.stringify(cli._connectionManagers))
+//    console.log('_servers'+ JSON.stringify(cli._servers))
+//});
 
 
 /*

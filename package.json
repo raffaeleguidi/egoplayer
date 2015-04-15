@@ -1,8 +1,8 @@
 {
-  "name": "megaplayer",
+  "name": "egotic",
   "version": "0.5.0",
-  "description": "An egocentric media player",
-  "main": "index.js",
+  "description": "An egoistic, egocentric, egotic media player",
+  "main": "start.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,7 +11,7 @@
     "torrent",
     "video"
   ],
-  "author": "Raffaele P. Guidi <raffaele.p.guidi@gmail.com> (https://github.com/raffaeleguidi)",
+  "author": "Raffaele P. Guidi <raffaele.p.guidi@gmail.com> (https://twitter.com/raffaeleguidi)",
   "license": "ISC",
     "dependencies": {
         "upnpserver": "*",
