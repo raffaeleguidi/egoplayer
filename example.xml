@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root xmlns="urn:schemas-upnp-org:device-1-0">
+ <specVersion>
+  <major>1</major>
+  <minor>0</minor>
+ </specVersion>
+ <device>
+  <deviceType>urn:schemas-upnp-org:device:MediaServer:1</deviceType>
+  <friendlyName>Egotic Player</friendlyName>
+  <manufacturer>
+   <name>Olivier Oeuillot</name>
+  </manufacturer>
+  <manufacturerURL>https://github.com/oeuillot/upnpserver</manufacturerURL>
+  <modelDescription>Node upnp server</modelDescription>
+  <modelName>Windows Media Connect compatible (Node upnpserver)</modelName>
+  <modelURL>https://github.com/oeuillot/upnpserver</modelURL>
+  <modelNumber>1.2.0</modelNumber>
+  <serialNumber>1.2</serialNumber>
+  <UDN>uuid:71aeb213-5037-4319-b712-118fc38789f3</UDN>
+  <presentationURL>http://::1:10000/</presentationURL>
+  <iconList>
+   <icon>
+    <mimetype>image/png</mimetype>
+    <width>32</width>
+    <height>32</height>
+    <depth>24</depth>
+    <url>/icons/icon_32.png</url>
+   </icon>
+   <icon>
+    <mimetype>image/png</mimetype>
+    <width>128</width>
+    <height>128</height>
+    <depth>24</depth>
+    <url>/icons/icon_128.png</url>
+   </icon>
+   <icon>
+    <mimetype>image/png</mimetype>
+    <width>512</width>
+    <height>512</height>
+    <depth>24</depth>
+    <url>/icons/icon_512.png</url>
+   </icon>
+  </iconList>
+  <serviceList>
+   <service>
+    <serviceType>urn:schemas-upnp-org:service:ConnectionManager:1</serviceType>
+    <serviceId>urn:upnp-org:serviceId:ConnectionManager</serviceId>
+    <SCPDURL>/cms.xml</SCPDURL>
+    <controlURL>/cms/control</controlURL>
+    <eventSubURL>/cms/event</eventSubURL>
+   </service>
+   <service>
+    <serviceType>urn:schemas-upnp-org:service:ContentDirectory:1</serviceType>
+    <serviceId>urn:upnp-org:serviceId:ContentDirectory</serviceId>
+    <SCPDURL>/cds.xml</SCPDURL>
+    <controlURL>/cds/control</controlURL>
+    <eventSubURL>/cds/event</eventSubURL>
+   </service>
+  </serviceList>
+ </device>
+ <URLBase>http://::1:10000/</URLBase>
+</root>

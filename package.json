@@ -14,6 +14,9 @@
   "author": "Raffaele P. Guidi <raffaele.p.guidi@gmail.com> (https://twitter.com/raffaeleguidi)",
   "license": "ISC",
     "dependencies": {
+        "date-format-lite": "*",
+        "winston": "*",
+        "node-ssdp": "*",
         "upnpserver": "*",
         "node-upnp-client": "*"
     }
