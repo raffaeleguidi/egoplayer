@@ -1,2 +1,2 @@
-# egoplayer
-An egocentric media player
+# egotic
+An egoistic, egocentric, egotic media player
